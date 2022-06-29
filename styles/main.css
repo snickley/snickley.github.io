@@ -52,8 +52,7 @@ p {
 
 
 footer {
-  font-size: 12pt;
-  background-color: mediumslateblue;
+  font-size: 10pt !important;
 }
 
 .bold-text {
