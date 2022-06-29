@@ -8,10 +8,16 @@ body {
 
 #homepage-h1 {
   font-size: 60pt;
-  color: white;
   font-family: 'Rubik Moonrocks', cursive;
   margin-bottom: -40px;
   margin-top: 0;
+}
+
+h1 {
+  font-size: 50pt;
+  font-family: roboto;
+  color: white;
+  font-weight: bolder;
 }
 
 h2 {
@@ -21,7 +27,7 @@ h2 {
 }
 
 p {
-  font-size: 16pt;
+  font-size: 14pt;
   font-family: 'Roboto', sans-serif;
   color: white
 }
@@ -58,4 +64,22 @@ footer p {
 
 .bold-text {
   font-weight: bold;
+}
+
+.blog-heading {
+  color: white
+
+}
+
+.article {
+  background-color: blueviolet;
+  height: 50vh;
+  width: 80vw;
+  padding: 0.5em;
+  margin: 25vh auto 0;
+  margin-top: 50px;
+}
+
+.article p {
+  margin-bottom: 60px;
 }
