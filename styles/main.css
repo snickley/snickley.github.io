@@ -22,3 +22,20 @@ p {
   font-style: italic;
   font-size: 20pt;
 }
+
+#homepage-blog-links {
+  background-color: blueviolet;
+  height: 50vh;
+  width: 50vw;
+  padding: 0.5em;
+  margin: 25vh auto 0;
+}
+
+.blog-link {
+  background-color: cornflowerblue;
+  margin: 0.5em;
+  font-size: 16pt;
+  font-family: 'Roboto';
+  color: black;
+  font-style: oblique;
+}
