@@ -1,16 +1,7 @@
+/* general styling */
+
 body {
   background-color: darkslateblue;
-}
-
-#homepage-header {
-  padding: 1.5em;
-}
-
-#homepage-h1 {
-  font-size: 60pt;
-  font-family: 'Rubik Moonrocks', cursive;
-  margin-bottom: -40px;
-  margin-top: 0;
 }
 
 h1 {
@@ -24,12 +15,31 @@ h2 {
   font-family: 'Dancing Script', cursive;
   font-size: 40pt;
   color: whitesmoke;
+  margin-top: -40px;
+  margin-bottom: 0px;
 }
 
 p {
   font-size: 14pt;
   font-family: 'Roboto', sans-serif;
   color: white
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+/* homepage styling */
+
+#homepage-header {
+  padding: 1.5em;
+}
+
+#homepage-h1 {
+  font-size: 60pt;
+  font-family: 'Rubik Moonrocks', cursive;
+  margin-bottom: -40px;
+  margin-top: 0;
 }
 
 #homepage-intro {
@@ -62,15 +72,16 @@ footer p {
   text-align: center;
 }
 
-.bold-text {
-  font-weight: bold;
+/* blog page styling */
+
+.blog-header {
+  margin: 1em;
+  padding: 0.75em;
 }
 
-.blog-heading {
+.blog-h3 {
   color: white;
   font-family: 'Roboto';
-  font-size: 16pt;
-  padding: 0, 10px, 0, 20px;
 }
 
 .blog-date {
@@ -81,12 +92,7 @@ footer p {
 article {
   background-color: blueviolet;
   width: 80vw;
-  padding: 0.5em;
+  padding: 1.5em;
   margin: 25vh auto 0;
   margin-top: 50px;
-}
-
-article p {
-  margin-bottom: 60px;
-  padding: 0, 10px, 0, 30px;
 }
