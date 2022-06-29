@@ -69,7 +69,8 @@ footer p {
 .blog-heading {
   color: white;
   font-family: 'Roboto';
-  font-size: 20pt;
+  font-size: 16pt;
+  padding: 0, 10px, 0, 20px;
 }
 
 .blog-date {
@@ -79,7 +80,6 @@ footer p {
 
 article {
   background-color: blueviolet;
-  height: 50vh;
   width: 80vw;
   padding: 0.5em;
   margin: 25vh auto 0;
@@ -88,4 +88,5 @@ article {
 
 article p {
   margin-bottom: 60px;
+  padding: 0, 10px, 0, 30px;
 }
