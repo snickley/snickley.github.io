@@ -77,7 +77,7 @@ footer p {
   font-size: 12pt;
 }
 
-.article {
+article {
   background-color: blueviolet;
   height: 50vh;
   width: 80vw;
@@ -86,6 +86,6 @@ footer p {
   margin-top: 50px;
 }
 
-.article p {
+article p {
   margin-bottom: 60px;
 }
