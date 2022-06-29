@@ -1,6 +1,5 @@
 body {
   background-color: darkslateblue;
-
 }
 
 #homepage-header {
@@ -28,10 +27,8 @@ p {
 }
 
 #homepage-intro {
-  color: midnightblue;
   font-style: italic;
   font-size: 20pt;
-  
 }
 
 #homepage-blog-links {
@@ -51,4 +48,14 @@ p {
   font-family: 'Roboto';
   color: black;
   font-style: oblique;
+}
+
+
+footer {
+  font-size: 12pt;
+  background-color: mediumslateblue;
+}
+
+.bold-text {
+  font-weight: bold;
 }
