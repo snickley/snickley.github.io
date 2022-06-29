@@ -67,8 +67,14 @@ footer p {
 }
 
 .blog-heading {
-  color: white
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20pt;
+}
 
+.blog-date {
+  color: white;
+  font-size: 12pt;
 }
 
 .article {
