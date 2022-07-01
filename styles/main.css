@@ -118,3 +118,9 @@ article p {
   margin-right: auto;
   width: 50%;  
 }
+
+code {
+  background-color: lightgrey;
+  color: black;
+  font-family: monospace;
+}
