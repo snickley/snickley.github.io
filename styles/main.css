@@ -120,7 +120,8 @@ article p {
 }
 
 code {
-  background-color: lightgrey;
+  background-color: #e5e5e5d1;
   color: black;
-  font-family: monospace;
+  padding: 2px;
+  border-radius: 3px;
 }
