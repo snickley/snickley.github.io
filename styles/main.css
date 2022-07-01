@@ -134,3 +134,16 @@ article p {
   margin-top: -50px;
   width: 50%;  
 }
+
+#code-box-model {
+  background-color: #e5e5e5;
+  padding: 5px;
+  border-radius: 3px;
+  width: 50%;
+  float: left;
+}
+
+#img-box-model-example {
+  width: auto;
+  float: right;
+}
