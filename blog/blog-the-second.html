@@ -47,7 +47,6 @@
         colour = same colour as the text inside the object <br><br>
 
         To have a border show up, it needs a width of more than 0 and a style that is not <code>none</code>.
-
       </p>
       <a id="img-box-model" title="Charles Calvert, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Box-model.svg"><img width="512" alt="Box-model" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Box-model.svg/512px-Box-model.svg.png"></a>
       <hr>
@@ -66,6 +65,32 @@
       <p>
          The <code>margin</code>, <code>padding</code> and <code>border</code> properties are all set within css. 
          Each property can be set to different values for the top, right, bottom, and left of the object. 
+         <br><br>
+         <div id="code-box-model">
+         <code>
+          <!DOCTYPE html>
+          <html>
+          <head>
+          <style>
+          div {
+            background-color: lightgrey;
+            width: 300px;
+            border: 10px solid blueviolet;
+            padding: 40px;
+            margin: 15px;
+          }
+          </style>
+          </head>
+          <body>
+          
+          <div>This text is the content inside the object. We have added 40px padding (the space between the edge of the box and the content inside it), 15px margin (the invisible space around the object) and a 10px blueviolet border.</div>
+          
+          </body>
+          </html>
+        </code>
+        </div>
+
+        
       </p>
       <form action="../index.html">
         <input type="submit" value="ET GO HOME" />
