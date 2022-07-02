@@ -149,7 +149,9 @@ article p {
   float: right;
 }
 
-#spacer-code-and-image {
-  height: 400px;
+#container-code-and-image {
+  height: fit-content;
+  width: auto;
   margin-bottom: 1em;
+  display: inline-block;
 }
