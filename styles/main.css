@@ -149,6 +149,12 @@ article p {
   float: right;
 }
 
+#img-box-model-example img {
+  width: 100%;
+  max-width: 429px;
+  height: auto;
+}
+
 #container-code-and-image {
   height: fit-content;
   width: auto;
