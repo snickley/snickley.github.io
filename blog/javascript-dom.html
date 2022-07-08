@@ -23,33 +23,45 @@
         The relationship between JavaScript, HTML and CSS
       </h3>
       <p>
-        You have a door in front of you. It's purple. There's an engraving of a whale on it. The handle is round, and golden. You reach out to turn the handle and...absolutely nothing happens. <br><br>
+        You have a door in front of you. It's purple. There's an engraving of a whale on it. The handle is round, and golden. You reach out to turn the handle and...absolutely nothing happens. 
+        <br><br>
         My non-technical friend, you've just encountered a website without JavaScript. The structure of the door, the frame, the fact that there is a handle, is all HTML. The delightful purple-ness, the whale, the shape and colour of the handle are all CSS. But you need JavaScript (henceforth to be known as JS) to interact with it. JS tells the door that it should open when you turn the handle. 
       </p>
       <h3 class="blog-h3">
         Control Flow and Loops
       </h3>
       <p>
-        JS is a list of instructions for how the website should react when you interact with it. The <strong>Control Flow</strong> refers to the fact that the computer reads your JS from top to bottom, like a book... unless you tell it to pause and re-read a section until you're satisfied it's done something - that's a <strong>Loop</strong>. You could think of this like doing laundry: the list of instructions are something like:
+        JS is a list of instructions for how the website should react when you interact with it. The <strong>Control Flow</strong> refers to the fact that the computer reads your JS from top to bottom, like a book... unless you tell it to pause and re-read a section until you're satisfied it's done something - that's a <strong>Loop</strong>. You could think of this like doing laundry; the list of instructions are something like:
       </p>
       <img src="../blog/loop-example.png">
+      <p>The control flow would run through the list of instructions until it gets to foldClothes, then continue doing that until it runs out of clothesToBeLaundered.</p>
       <h3 class="blog-h3">
         What's the DOM?
       </h3>
       <p>
-        To work flexibly as a web developer; whether that's for an organisation or for myself I'm currently undecided. At this stage I don't have ambitions to get into leadership pathways. 
+        DOM stands for Document Object Model. It's an Application Programming Interface (API) that allows us to use a programming language (JS, here) to modify the HTML document for a webpage. Pretty neat. 
+        <br><br>
+        With our delightful door example from earlier, you could use the event of turning the handle to change the colour of the door, or softly play 매직샵 while sparkles explode. 
       </p>
       <h3 class="blog-h3">
         Arrays vs Objects?
       </h3>
       <p>
-        To work flexibly as a web developer; whether that's for an organisation or for myself I'm currently undecided. At this stage I don't have ambitions to get into leadership pathways. 
+        An <strong>array</strong> is a list of things that all take the same format, like a list of placeNames. 
+      </p>
+      <img src="../blog/array-example.png">
+      <p>
+        An <strong>object</strong> is a collection of information about a subject, which may have different formats - like information about a particular place.
+      </p>
+      <img src="../blog/object-example.png">
+      <p>
+        An array will give you a numbered list of items (starting at 0 just to confuse and annoy you), while information in an object is accessed with 'keys'; e.g. console.log(seoul.venue) would give you "A-X Korea". 
       </p>
       <h3 class="blog-h3">
         What's a function?
       </h3>
       <p>
-        To work flexibly as a web developer; whether that's for an organisation or for myself I'm currently undecided. At this stage I don't have ambitions to get into leadership pathways. 
+        A function is, in essence, a list of repeatable instructions. It's like teaching your kid to do laundry; the first time (or 20 times with a kid, but a computer is better at remembering the instructions) you go through each little step of what needs to happen, in the order that it needs to happen, to demonstrate the activity. Then the next time your kid needs clean clothes, you run the doLaundry() function and (theoretically) they do the whole list of instructions without you having to write them out all over again.  
       </p>
 
       <form action="../index.html">
