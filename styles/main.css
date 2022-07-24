@@ -163,6 +163,10 @@ article p {
 }
 
 
+@media screen and (min-width: 1200px) {
+  #homepage-h1 {font-size: 70pt;}
+  }
+
 @media screen and (max-device-width: 768px) {
   #homepage-h1 {font-size: 40pt}
   h2 {font-size: 34pt}
